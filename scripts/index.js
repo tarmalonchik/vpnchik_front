@@ -27,14 +27,12 @@ sendButton.addEventListener('click', function (event) {
         return
     }
 
-    console.log('some')
     popupElement.querySelector('.popup__input').value = '';
-    console.log('some')
-
     popupElement.classList.remove('popup_opened');
 })
 
 let editEmail = popupElement.querySelector('.popup__input')
 editEmail.addEventListener('input', function (event) {
+    console.log('some')
     popupElement.querySelector('.popup__error').innerHTML = ''
 })
