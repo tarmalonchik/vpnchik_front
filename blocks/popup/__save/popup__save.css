@@ -31,3 +31,16 @@
         line-height: 17px;
     }
 }
+
+@media screen and (max-width: 616px) {
+    .popup__save {
+        max-width: 238px;
+        min-height: 48px;
+        margin-top: 45px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
