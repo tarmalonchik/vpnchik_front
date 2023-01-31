@@ -7,95 +7,51 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>VPNCHIK</title>
     <link rel="stylesheet" href="./pages/index.css">
-    <style>
-        .flex-container {
-            justify-content: space-between;
-            flex-direction: column;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            border-radius: 10px;
-            border: 2px solid #305278;
-            max-height: 350px;
-            display: flex;
-            box-shadow: 7px 5px 7px #305278;
-            background-color: white;
-            height: 450px;
-        }
-
-        .flex-container:hover{
-            background-color: rgb(249, 245, 245);
-        }
-
-        .button_container{
-            margin-bottom: 30px;
-        }
-
-        .title{
-            margin-top: 50px;
-            font-size: 20px;
-        }
-
-        .economyText{
-            color: green;
-            margin-top: 30px;
-        }
-
-        .priceText{
-            color: #305278;
-            font-size: 35px;
-            margin-top: 30px
-        }
-
-        .sumText{
-            margin-top: 30px;
-        }
-    </style>
 </head>
 
 <body class="page">
 <section>
     <div class="element">
         <ul class="element__list">
-            <li class="flex-container">
+            <li class="element__item">
                 <div>
                     <h2 class="title">24 часа</h2>
-                    <h2 class="priceText" style="color: red">Бесплатно</h2>
+                    <h2 class="element__item_price-text" style="color: rgb(150,0,0)">Бесплатно</h2>
                 </div>
-                <div class="button_container">
-                    <button type="button" class="element__pay">Попробовать</button>
+                <div class="element__button-container">
+                    <button type="button" class="element__button-container_pay">Попробовать</button>
                 </div>
             </li>
-            <li class="flex-container">
+            <li class="element__item">
                 <div>
                     <h2 class="title">30 дней</h2>
-                    <h2 class="priceText">149 ₽</h2>
-                    <p class="sumText">Итого: 149 ₽</p>
+                    <h2 class="element__item_price-text">149 ₽</h2>
+                    <p class="element__item_sum-text">Итого: 149 ₽</p>
                 </div>
-                <div class="button_container">
-                    <button type="button" class="element__pay">Оплатить</button>
+                <div class="element__button-container">
+                    <button type="button" class="element__button-container_pay">Оплатить</button>
                 </div>
             </li>
-            <li class="flex-container">
+            <li class="element__item">
                 <div>
                     <h2 class="title"> 90 дней</h2>
-                    <h2 class="priceText">99 ₽</h2>
-                    <p class="sumText">Итого: 297 ₽</p>
-                    <p class="economyText">Экономия: 150 ₽</p>
+                    <h2 class="element__item_price-text">99 ₽</h2>
+                    <p class="element__item_sum-text">Итого: 297 ₽</p>
+                    <p class="element__item_economy">Экономия: 150 ₽</p>
                 </div>
-                <div class="button_container">
-                    <button type="button" class="element__pay">Оплатить</button>
+                <div class="element__button-container">
+                    <button type="button" class="element__button-container_pay">Оплатить</button>
                 </div>
             </li>
-            <li class="flex-container">
+            <li class="element__item">
                 <div>
                     <h2 class="title">180 дней</h2>
-                    <h2 class="priceText">69 ₽</h2>
-                    <p class="sumText">Итого: 414 ₽</p>
-                    <p class="economyText">Экономия: 480 ₽</p>
+                    <h2 class="element__item_price-text">69 ₽</h2>
+                    <p class="element__item_sum-text">Итого: 414 ₽</p>
+                    <p class="element__item_economy">Экономия: 480 ₽</p>
                 </div>
-                <div class="button_container">
-                    <button type="button" class="element__pay">Оплатить</button>
+                <div class="element__button-container">
+                    <button type="button" class="element__button-container_pay">Оплатить</button>
                 </div>
             </li>
         </ul>

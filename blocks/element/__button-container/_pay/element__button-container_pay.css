@@ -1,4 +1,4 @@
-.element__pay {
+.element__button-container_pay {
     background-color: #305278;
     color: white;
     border-radius: 10px;
@@ -8,6 +8,6 @@
     font-size: 18px;
 }
 
-.element__pay:hover {
+.element__button-container_pay:hover {
     opacity: 0.6;
 }

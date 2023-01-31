@@ -1,0 +1,18 @@
+.element__item {
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    border: 2px solid #305278;
+    max-height: 350px;
+    display: flex;
+    box-shadow: 7px 5px 7px #305278;
+    background-color: white;
+    height: 450px;
+}
+
+.element__item:hover{
+    background-color: rgb(249, 245, 245);
+}
