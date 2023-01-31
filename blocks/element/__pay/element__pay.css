@@ -1,0 +1,13 @@
+.element__pay {
+    background-color: #305278;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+}
+
+.element__pay:hover {
+    opacity: 0.6;
+}

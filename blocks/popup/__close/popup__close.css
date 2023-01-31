@@ -1,0 +1,27 @@
+.popup__close {
+    cursor: pointer;
+    background: url("https://www.svgrepo.com/show/178323/cross-close.svg") no-repeat;
+    border: none;
+    border-radius: 5px;
+    background-size: 32px 32px;
+    position: absolute;
+    max-width: 16px;
+    min-height: 16px;
+    padding: 16px;
+    right: 5px;
+    top: 5px;
+}
+
+.popup__close:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 616px) {
+    .popup__close {
+        max-width: 10px;
+        min-height: 10px;
+        padding: 10px;
+        right: 0;
+        top: -35px;
+    }
+}
