@@ -14,14 +14,6 @@
     border-radius: 20px;
 }
 
-/*@media screen and (max-width: 616px) {*/
-/*    .popup__input {*/
-/*        max-width: 238px;*/
-/*        margin-left: 22px;*/
-/*        margin-right: 22px;*/
-/*    }*/
-/*}*/
-
 .popup__input:first-child {
     padding-top: 0;
 }
