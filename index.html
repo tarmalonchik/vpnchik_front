@@ -59,13 +59,12 @@
 
 <section class="popup">
     <div class="popup__container">
-        <h2 class="popup__title">Введите email:</h2>
         <form action="#" name="name" class="popup__action">
-            <div>
-                <label><input type="email" name="job" class="popup__input"></label>
+            <div class="popup__safe-area">
+                <label><input type="email" placeholder="Введите e-mail" name="job" class="popup__input"></label>
                 <h5 class="popup__error"></h5>
+                <button type="submit" class="popup__save">Отправить</button>
             </div>
-            <button type="submit" class="popup__save">Отправить</button>
         </form>
         <button type="button" class="popup__close"></button>
     </div>

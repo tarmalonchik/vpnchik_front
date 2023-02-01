@@ -1,18 +1,16 @@
 .popup__save {
-    display: block;
-    margin: 44px auto 37px;
-    padding: 0;
     cursor: pointer;
-    background-color: #305278;
-    border-radius: 10px;
-    color: #fff;
+    display: block;
     width: 100%;
-    max-width: 358px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #305278;
     min-height: 50px;
     border: none;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
+    margin-top: 60px;
 }
 
 .popup__save:hover {
