@@ -1,0 +1,7 @@
+.cards__item {
+    max-width: 346px;
+    list-style-type: none;
+    text-align: start;
+    padding-top: 60px;
+    margin-right: 50px;
+}

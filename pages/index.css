@@ -23,5 +23,16 @@
 @import url('../blocks/popup/_opened/popup_opened.css');
 @import url('../blocks/popup/__safe-area/popup__safe-area.css');
 
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/_bg-img/header_dg-img.css');
+@import url('../blocks/header/__title/header__title.css');
+@import url('../blocks/header/__container/header__container.css');
 
+@import url('../blocks/info/info.css');
+
+/*cards*/
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/cards/__item/cards__item.css');
+@import url('../blocks/cards/__title/cards__title.css');
+@import url('../blocks/cards/__text/cards__text.css');
 
