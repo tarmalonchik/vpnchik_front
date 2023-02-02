@@ -2,3 +2,9 @@
     display: flex;
     height: 70px;
 }
+
+@media screen and (max-width: 650px) {
+    .header__links {
+        margin-left: -1000px;
+    }
+}
