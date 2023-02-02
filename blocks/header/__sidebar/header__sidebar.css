@@ -4,10 +4,10 @@
     width : 320px;
     outline: none;
     cursor: auto;
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(0,0,0,0);
     height: 100%;
     right: 0;
     top: 0;
-    background-color: rgb(35,83,123);
     margin-right: -500px;
+    transition: all .3s linear 0s;
 }

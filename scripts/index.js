@@ -46,7 +46,7 @@ const headerSidebar = document.querySelector('.header__sidebar');
 const headerSidebarClose = headerSidebar.querySelector('.header__sidebar_close');
 
 headerSidebarClose.addEventListener('click', function (event) {
-    console.log()
+    headerSidebar.classList.remove('header__sidebar_opened');
 })
 
 
@@ -56,8 +56,13 @@ headerSidebarClose.addEventListener('click', function (event) {
 // menu
 const headerMenu = document.querySelector('.header__item_menu-img')
 headerMenu.addEventListener('click', function (event){
-    document.querySelector()
+    headerSidebar.classList.add('header__sidebar_opened');
 })
 
 
 
+
+// logo
+document.querySelector('.header__item_logo-img').addEventListener('click', function (event){
+    window.location.href = 'index.html'
+})
