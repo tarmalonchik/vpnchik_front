@@ -32,6 +32,8 @@
 @import url('../blocks/header/__sidebar/header__sidebar.css');
 @import url('../blocks/header/__sidebar/_close/header__sidebar_close.css');
 @import url('../blocks/header/__sidebar/_opened/header__sidebar_opened.css');
+@import url('../blocks/header/__sidebarlist/header__sidebarlist.css');
+@import url('../blocks/header/__sidebarlist/_item/header__sidebarlist_item.css');
 
 @import url('../blocks/info/info.css');
 

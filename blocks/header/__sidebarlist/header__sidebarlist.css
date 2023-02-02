@@ -1,0 +1,7 @@
+.header__sidebarlist{
+    margin-top:50px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-left: 50px;
+}
