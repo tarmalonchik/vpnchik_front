@@ -1,0 +1,13 @@
+.header__sidebar{
+    display: block;
+    position: fixed;
+    width : 320px;
+    outline: none;
+    cursor: auto;
+    background-color: rgba(0,0,0,1);
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: rgb(35,83,123);
+    margin-right: -500px;
+}

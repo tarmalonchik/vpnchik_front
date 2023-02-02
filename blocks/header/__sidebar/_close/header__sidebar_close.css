@@ -1,6 +1,6 @@
-.popup__close {
+.header__sidebar_close{
     cursor: pointer;
-    background: url("../../../images/close_blue.png") no-repeat;
+    background: url("../../../../images/close_white.png") no-repeat;
     border: none;
     border-radius: 5px;
     background-size: 32px 32px;
@@ -10,8 +10,4 @@
     padding: 16px;
     right: 20px;
     top: 20px;
-}
-
-.popup__close:hover {
-    opacity: 0.6;
 }

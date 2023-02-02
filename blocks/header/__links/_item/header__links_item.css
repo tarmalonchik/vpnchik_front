@@ -1,0 +1,11 @@
+.header__links_item{
+    margin-top: 25px;
+    color: white;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__links_item:hover{
+    opacity: 0.6;
+}

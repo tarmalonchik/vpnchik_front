@@ -36,3 +36,28 @@ editEmail.addEventListener('input', function (event) {
     console.log('some')
     popupElement.querySelector('.popup__error').innerHTML = ''
 })
+
+
+
+
+
+// sidebar
+const headerSidebar = document.querySelector('.header__sidebar');
+const headerSidebarClose = headerSidebar.querySelector('.header__sidebar_close');
+
+headerSidebarClose.addEventListener('click', function (event) {
+    console.log()
+})
+
+
+
+
+
+// menu
+const headerMenu = document.querySelector('.header__item_menu-img')
+headerMenu.addEventListener('click', function (event){
+    document.querySelector()
+})
+
+
+

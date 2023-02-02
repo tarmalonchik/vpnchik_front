@@ -1,0 +1,15 @@
+.sidebar{
+    display: block;
+    position: fixed;
+    /*width : 320px;*/
+
+    outline: none;
+    cursor: auto;
+    /*position: fixed;*/
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}

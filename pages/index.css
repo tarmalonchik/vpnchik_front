@@ -24,9 +24,13 @@
 @import url('../blocks/popup/__safe-area/popup__safe-area.css');
 
 @import url('../blocks/header/header.css');
-@import url('../blocks/header/_bg-img/header_dg-img.css');
-@import url('../blocks/header/__title/header__title.css');
-@import url('../blocks/header/__container/header__container.css');
+@import url('../blocks/header/__item/header__item.css');
+@import url('../blocks/header/__item/_logo-img/header__item_logo-img.css');
+@import url('../blocks/header/__links/header__links.css');
+@import url('../blocks/header/__links/_item/header__links_item.css');
+@import url('../blocks/header/__item/_menu-img/header__item_menu-img.css');
+@import url('../blocks/header/__sidebar/header__sidebar.css');
+@import url('../blocks/header/__sidebar/_close/header__sidebar_close.css');
 
 @import url('../blocks/info/info.css');
 

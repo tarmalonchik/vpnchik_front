@@ -1,8 +1,10 @@
 .header {
-    max-width: 1280px;
+    display: flex;
     min-width: 320px;
     position: relative;
     margin: 0;
     width: 100%;
-
+    justify-content: space-between;
+    background-color: rgb(35,83,123);
+    height: 70px;
 }
