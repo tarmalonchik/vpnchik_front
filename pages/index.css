@@ -17,3 +17,13 @@
 
 
 
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__info/footer__info.css');
+@import url('../blocks/footer/__info-agreement/footer__info-agreement.css');
+@import url('../blocks/footer/__info-contacts/footer__info-contacts.css');
+@import url('../blocks/footer/__info-name/footer__info-name.css');
+@import url('../blocks/container/container.css');
+@import url('../blocks/container/__bankcards/container__bankcards.css');
+
+
+
