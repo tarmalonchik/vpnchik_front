@@ -1,7 +1,9 @@
 .element {
-    max-width: 1280px;
+    /*max-width: 1280px;*/
     align-content: center;
     width: 100%;
     margin: 0 auto;
     padding-top: 50px;
+    background-color: rgb(35,83,123);
+    min-height: 400px;
 }

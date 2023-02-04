@@ -4,5 +4,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, 282px);
     gap: 20px 17px;
-    justify-content: center;
+    justify-content: space-between;
+    display: flex;
 }
