@@ -7,3 +7,11 @@
     padding-top: 120px;
     padding-bottom: 300px;
 }
+
+
+
+@media screen and (max-width: 1300px) {
+    .main__image {
+        background-image: none;
+    }
+}
