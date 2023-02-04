@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, 282px);
     gap: 20px 17px;
-    justify-content: space-between;
-    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1280px;
 }
