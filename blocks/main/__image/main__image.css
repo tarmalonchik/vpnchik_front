@@ -6,9 +6,15 @@
     height: 200px;
     padding-top: 120px;
     padding-bottom: 300px;
+    display: flex;
 }
 
-
+@media screen and (max-width: 700px) {
+    .main__image {
+        background-image: none;
+        justify-content: center;
+    }
+}
 
 @media screen and (max-width: 1300px) {
     .main__image {

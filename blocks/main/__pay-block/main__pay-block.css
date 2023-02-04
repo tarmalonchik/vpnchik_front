@@ -1,12 +1,22 @@
 .main__pay-block{
-    max-width: 350px;
     color: rgb(35,83,123);
     margin-left: 170px;
+}
+@media screen and (max-width: 700px) {
+    .main__pay-block {
+        margin-left: 10px;
+    }
 }
 
 .main__pay-block-header{
     font-size: 40px;
     width: 400px;
+}
+@media screen and (max-width: 440px) {
+    .main__pay-block-header {
+        font-size: 30px;
+        width: 320px;
+    }
 }
 
 .main__pay-block-list{
@@ -30,7 +40,7 @@
 .main__pay-block-button{
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #305278;
+    background-color: darkorange;
     color: white;
     border-radius: 20px;
     width: 200px;
