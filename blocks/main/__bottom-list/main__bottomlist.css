@@ -1,0 +1,4 @@
+.main__bottom-list{
+    display: flex;
+    justify-content: space-between;
+}

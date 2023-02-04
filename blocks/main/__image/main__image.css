@@ -1,0 +1,9 @@
+.main__image{
+    background-image: url("../../../images/1.jpg");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position-x: 600px;
+    height: 200px;
+    padding-top: 120px;
+    padding-bottom: 300px;
+}

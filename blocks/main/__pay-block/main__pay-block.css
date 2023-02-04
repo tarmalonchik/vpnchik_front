@@ -1,0 +1,57 @@
+.main__pay-block{
+    max-width: 350px;
+    color: rgb(35,83,123);
+    margin-left: 170px;
+}
+
+.main__pay-block-header{
+    font-size: 40px;
+    width: 400px;
+}
+
+.main__pay-block-list{
+    display: flex;
+    font-size: 10px;
+    flex-direction: column;
+}
+
+.main__pay-block-list-item{
+    display: flex;
+}
+
+.main__pay-block-list-item-image{
+    margin-right: 30px;
+}
+
+.main__pay-block-list-item-text{
+
+}
+
+.main__pay-block-button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #305278;
+    color: white;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    position: center;
+}
+
+.main__pay-block-button:hover{
+    opacity: 0.6;
+}
+
+.main__pay-block-bottom{
+    display: flex;
+}
+
+.main__pay-block-bottom-img{
+    margin-right: 10px;
+}
+
+.main__pay-block-bottom-text{
+    font-size: 15px;
+}

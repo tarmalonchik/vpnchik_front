@@ -43,3 +43,20 @@
 @import url('../blocks/cards/__title/cards__title.css');
 @import url('../blocks/cards/__text/cards__text.css');
 
+
+@import url('../blocks/main/__image/main__image.css');
+@import url('../blocks/main/__bottom-element/main__bottom-element.css');
+@import url('../blocks/main/__bottom-list/main__bottomlist.css');
+@import url('../blocks/main/__pay-block/main__pay-block.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__info/footer__info.css');
+@import url('../blocks/footer/__info-agreement/footer__info-agreement.css');
+@import url('../blocks/footer/__info-contacts/footer__info-contacts.css');
+@import url('../blocks/footer/__info-name/footer__info-name.css');
+@import url('../blocks/container/container.css');
+@import url('../blocks/container/__bankcards/container__bankcards.css');
+
+
+
+
